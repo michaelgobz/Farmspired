@@ -1,11 +1,10 @@
-import app from './app';
+/* eslint-disable import/no-extraneous-dependencies */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 
-const startApp = async () => {
-  const header = document.querySelector('[data-app-name]');
-  if (!header) return;
+import App from './App.jsx';
 
-  const programName = await app();
-  header.textContent = programName;
-};
-
-document.addEventListener('DOMContentLoaded', startApp);
+ReactDOM.render(<App />, document.getElementById('root'));
