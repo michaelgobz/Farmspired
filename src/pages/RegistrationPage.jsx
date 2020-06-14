@@ -42,7 +42,7 @@ function RegistrationPage() {
               className="form-control mb-4"
               placeholder="Password"
             />
-            <MDBBtn className="btn btn-block my-4" type="submit">
+            <MDBBtn className="btn btn-block my-4" type="submit" action="/auth/authroute/sign_up" method="POST">
               SIGN UP
             </MDBBtn>
 
