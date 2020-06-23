@@ -91,14 +91,15 @@ function Header() {
                 className="dropdown-menu dropdown-menu-right dropdown-default"
                 aria-labelledby="navbarDropdownMenuLink-333"
               >
+                
                 <a className="dropdown-item" href="#">
-                  Action
+                  Users Profile
                 </a>
                 <a className="dropdown-item" href="#">
-                  Another action
+                  Logout
                 </a>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  Dashboard
                 </a>
               </div>
             </li>
